@@ -1,0 +1,8 @@
+angular.module("FinalApp",["lumx","ngRoute"])
+.configure(function($routeProvider)){
+	$routeProvider
+	   .when("/",{
+		controller: "MainController"		
+		})
+
+});
